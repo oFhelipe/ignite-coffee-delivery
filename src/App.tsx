@@ -8,7 +8,7 @@ import { CartProvider } from './Contexts/CartContext'
 export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <BrowserRouter>
+      <BrowserRouter basename="/ignite-coffee-delivery">
         <CartProvider>
           <Router />
           <GlobalStyle />
